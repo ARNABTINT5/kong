@@ -174,7 +174,8 @@
   [#10775](https://github.com/Kong/kong/pull/10775)
 - Fix issue where Vault configuration stayed sticky and cached even when configurations were changed.
   [#10776](https://github.com/Kong/kong/pull/10776)
-
+- Fix protocol detection of default values.
+  [#10736](https://github.com/Kong/kong/pull/10736)
 
 #### Admin API
 
