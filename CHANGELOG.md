@@ -174,6 +174,8 @@
   [#10775](https://github.com/Kong/kong/pull/10775)
 - Fix issue where Vault configuration stayed sticky and cached even when configurations were changed.
   [#10776](https://github.com/Kong/kong/pull/10776)
+- Fix an issue where cli `kong vault get` doesn't work in dbless mode.
+  [#10675](https://github.com/Kong/kong/pull/10675)
 
 
 #### Admin API
