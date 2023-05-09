@@ -71,6 +71,13 @@
 
 ## Unreleased
 
+#### Core
+
+- Backported the openresty `ngx.print` chunk encoding buffer double free bug fix that
+  leads to the corruption of chunk-encoded response data.
+  [#10816](https://github.com/Kong/kong/pull/10816)
+  [#10824](https://github.com/Kong/kong/pull/10824)
+
 ### Dependencies
 
 - Bumped lua-resty-timer-ng from 0.2.3 to 0.2.5
